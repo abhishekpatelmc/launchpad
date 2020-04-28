@@ -1,0 +1,109 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+.mainbox {
+    /* border: 2px red solid; */
+    display: flex;
+}
+
+.img-box {
+    /* border: 2px yellow solid; */
+    width: 52%;
+}
+
+.other-box {
+    /* border: 2px green solid; */
+    width: 48%;
+}
+
+.navbox {
+    padding: 10px;
+    padding-top: 40px;
+    margin-left: 100px;
+}
+
+.navbox .it {
+    padding-left: 40px;
+    font-size: 1.05rem;
+}
+
+.navbox .it:hover {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #301695;
+}
+
+.navbox .log {
+    margin-top: -8px;
+}
+
+.navbox .log button {
+    border-radius: 25px;
+    width: 100px;
+    background: #301695 !important;
+}
+
+.navbox .log button:hover {
+    background: red !important;
+}
+
+.content {
+    /* border: 2px brown solid; */
+    padding: 40px 50px 0px 50px;
+}
+
+.content h1 {
+    color: #301695;
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 10%;
+    margin-left: -5%;
+}
+
+.content p {
+    padding: 10% 10% 0 10%;
+    margin-top: -19%;
+    margin-left: -5%;
+    font-size: 1.2rem;
+}
+
+.get {
+    margin: 2% 0 0 6%;
+}
+
+.get button {
+    border-radius: 25px;
+    background: #301695 !important;
+    width: 150px;
+    height: 42px;
+}
+
+.get button:hover {
+    background: red !important;
+}
+
+.social {
+    /* border: olivedrab 2px solid; */
+    margin: 5% 0 0 2%;
+    display: flex;
+}
+
+.social li {
+    list-style: none;
+    padding-left: 50px;
+    font-size: 1.5rem;
+    color: #301695;
+}
+
+.social li :hover {
+    font-size: 1.7rem;
+    color: red;
+}
